@@ -28,4 +28,6 @@ jobs:
     - name: Process templates
       run: npm run template:process
     - name: Run tests
-      run: npm run test:ci
+      run: npm run test:ci 
+      - run: tests run
+
